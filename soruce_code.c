@@ -7,6 +7,6 @@ int main() {
     scanf("%d", &num); If we would like to take an input */
 
     reverse_num += num % 100;
-
+    printf("%d", reverse_num);
 
 }
