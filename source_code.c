@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num = 123, reverse_num;
     
-    /*printf("Enter the number which you would like to print in the reverse order : ");
-    scanf("%d", &num); If we would like to take an input */
-
-    reverse_num = reverse_num + (num % 100);
-    printf("%d", reverse_num);
+    int num = 123, num1 = 0, num2 = 0, num3 = 0;
+    num1 += (num % 10);
+    num2 += (num / 10) % 10;
+    num3 += ((num / 10) / 10);
+    printf("The number in reverse order is %d%d%d", num1, num2, num3);
+    return 0;
 
 }
